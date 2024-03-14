@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald';
+
+}
+
+body{
+    position: relative;
+}
+
+header {
+    height: 350px;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)),
+        url("./img/bikeman.jpg");
+    background-size: cover;
+    background-position: 0;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    
+}
+
+nav>a,
+nav>div {
+    font-size: 1.3em;
+    padding: 20px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 5em;
+    text-align: center;
+    color: white;
+    padding-top: 90px;
+}
+
+.red-line {
+    padding-top: 15px;
+    background-color: #FF5252;
+    width: 720px;
+    height: 6px;
+    margin: auto;
+}
+
+.main-subjects-container {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subject-card {
+    img {
+        width: 260px;
+    }
+
+    p {
+        text-align: center;
+        padding-top: 10px;
+        font-size: 1.1em;
+    }
+}
+
+.mt-container {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 60px;
+
+    p {
+        padding-top: 10px;
+        font-size: 1.7em;
+        padding-left: 50px;
+        margin-right: 70px;
+        font-weight: 500;
+    }
+}
+
+.mt-card {
+    img {
+        width: 540px;
+    }
+
+    p {
+        text-align: center;
+        font-size: 2em;
+    }
+}
+
+main {
+    margin: auto;
+    width: 1150px;
+    padding-bottom: 100px;
+}
+
+.pencil-box{
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px 1px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.pencil-icon{
+    translate: 70% 70%;
+}
+
+.to-black{
+    color: white;
+}
