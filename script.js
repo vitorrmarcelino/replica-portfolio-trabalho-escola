@@ -1,13 +1,17 @@
-const toBlack = document.querySelector(".to-black")
+const toBlack = document.querySelectorAll(".to-black")
 const toWhite = document.querySelector(".to-white")
 
 const ChangeColors = () => {
     if(document.documentElement.scrollTop !== 0){
         toWhite.style.backgroundColor = "white";
-        toBlack.style.color = "black";
+        toBlack.forEach((value)=>{
+            value.style.color = "black";
+        })
     }else{
         toWhite.style.backgroundColor = "";
-        toBlack.style.color = "white"; 
+        toBlack.forEach((value)=>{
+            value.style.color = "white";
+        })
     }
 }
 
