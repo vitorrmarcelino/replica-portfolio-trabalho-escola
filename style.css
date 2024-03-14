@@ -130,3 +130,35 @@ main {
 .to-black{
     color: white;
 }
+
+.menu{
+
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px 1px;
+    border-radius: 5px;
+    position: fixed;
+    right: 15px;
+    top: 70px;
+    background-color: #fff;
+    width: 280px;
+    padding: 20px 10px;
+}
+
+.menu-options{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px;
+
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.25em;
+    }
+}
+
+.active-menu{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
